@@ -1,1 +1,7 @@
-// 코드를 작성해주세요!
+'user strict';
+
+const btn = document.querySelector('#app');
+
+btn.addEventListener('click', (e) => {
+  alert(e.target.textContent);
+});
