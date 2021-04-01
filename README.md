@@ -6,7 +6,7 @@
 - 작성자/미션-iss번호
 - PR을 남겨서 코드 리뷰를 받습니다.
 ```
-`tiaz/bubbling-1` 
+tiaz/bubbling-1 
 ```
 
 ## PR 형식
