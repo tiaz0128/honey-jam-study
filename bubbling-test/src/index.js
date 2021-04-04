@@ -4,15 +4,15 @@ const btn2 = document.querySelector('#btn-2');
 const btn3 = document.querySelector('#btn-3');
 const btn4 = document.querySelector('#btn-4');
 
-btn1.addEventListener('click', () => {
-    alert(btn1.textContent);
+btn1.addEventListener('click', (event) => {
+    alert(event.target.textContent);
 })
-btn2.addEventListener('click', () => {
-    alert(btn2.textContent);
+btn2.addEventListener('click', (event) => {
+    alert(event.target.textContent);
 })
-btn3.addEventListener('click', () => {
-    alert(btn3.textContent);
+btn3.addEventListener('click', (event) => {
+    alert(event.target.textContent);
 })
-btn4.addEventListener('click', () => {
-    alert(btn4.textContent);
+btn4.addEventListener('click', (event) => {
+    alert(event.target.textContent);
 })
