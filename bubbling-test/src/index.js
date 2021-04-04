@@ -9,19 +9,16 @@ const btn2=document.querySelector('#btn-2');
 const btn3=document.querySelector('#btn-3');
 const btn4=document.querySelector('#btn-4');
 
-btn1.addEventListener('click', function(){
-    console.log(btn1);
-    alert(btn1.innerText);
-});
-btn2.addEventListener('click', function(){
-    console.log(btn2);
-    alert(btn2.innerText);
-});
-btn3.addEventListener('click', function(){
-    console.log(btn3);
-    alert(btn3.innerText);
-});
-btn4.addEventListener('click', function(){
-    console.log(btn4);
-    alert(btn4.innerText);
-});
+btn1.addEventListener('click', (e) => {
+    alert(e.target.innerText);
+})
+btn2.addEventListener('click', (e) => {
+    alert(e.target.innerText);
+})
+btn3.addEventListener('click', (e) => {
+    alert(e.target.innerText);
+})
+btn4.addEventListener('click', (e) => {
+    alert(e.target.innerText);
+})
+
