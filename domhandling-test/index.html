@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>bubbling-test</title>
+    <meta charset="UTF-8" />
+
+    <script defer src="src/index.js"></script>
+    <link rel="stylesheet" href="src/styles.css" />
+  </head>
+  <body>
+    <div id="app">
+      <ul class="tree" id="tree">
+        <li>
+          Animals
+          <ul>
+            <li>
+              Mammals
+              <ul>
+                <li style="color: blue">Cows</li>
+                <li>Donkeys</li>
+                <li>Dogs</li>
+                <li>Tigers</li>
+              </ul>
+            </li>
+            <li>
+              Other
+              <ul>
+                <li>Snakes</li>
+                <li>Birds</li>
+                <li>Lizards</li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li>
+          Fishes
+          <ul>
+            <li>
+              Aquarium
+              <ul>
+                <li>Guppy</li>
+                <li>Angelfish</li>
+              </ul>
+            </li>
+            <li>
+              Sea
+              <ul>
+                <li>Sea trout</li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+
+    <button id="changeColor-btn">change color</button>
+    <button id="toggleAll-btn">toggle all</button>
+  </body>
+</html>
