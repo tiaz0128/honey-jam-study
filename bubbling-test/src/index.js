@@ -4,10 +4,18 @@ const app = document.querySelector('#app');
 const btn = document.querySelectorAll('.btn');
 
 
-btn.forEach((element) => {
-    if(element.getAttribute('data-item-id')%2==0){
-        delBtn.addEventListener('click', () => {
-        app.removeChild(element);
-        })  
-    }
+// btn.forEach((element) => {
+//     if(element.getAttribute('data-item-id')%2==0){
+//         delBtn.addEventListener('click', () => {
+//         app.removeChild(element);
+//         })  
+//     }
+// })
+
+delBtn.addEventListener('click', () =>{
+    btn.forEach((e) => {
+        if(e.dataset.itemId%2===0) {
+            app.removeChild(e);
+        }
+    })
 })
